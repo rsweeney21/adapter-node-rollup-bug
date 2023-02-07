@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "lib": ["ESNext"],
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
+        // Compile to ES2022 since that is the version supported by Node 18
+        "target": "ES2022",
+        "composite": true,
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "allowSyntheticDefaultImports": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "isolatedModules": true,
+        "noEmit": false,
+        "sourceMap": true,
+        "declaration": true,
+        "declarationMap": true,
+        "incremental": true,
+        "forceConsistentCasingInFileNames": true,
+        // This will make our client bundles smaller because it allows bundlers to
+        // treeshake out modules that are imported only for their typescript types.
+        "importsNotUsedAsValues": "error"
+    },
+    "include": ["src/**/*.ts"]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "adapter-node-rollup-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsweeney21/adapter-node-rollup-bug.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rsweeney21/adapter-node-rollup-bug/issues"
+  },
+  "homepage": "https://github.com/rsweeney21/adapter-node-rollup-bug#readme"
+}
