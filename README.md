@@ -1,0 +1,1 @@
+# adapter-node-rollup-bug
